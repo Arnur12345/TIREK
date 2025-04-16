@@ -1,0 +1,133 @@
+/* Container for the login form */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f9fc;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Logo styling */
+.login-logo {
+    width: 150px;
+}
+
+/* Heading style */
+h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Error message style */
+.error-message {
+    color: #e74c3c;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Form container */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+}
+
+/* Label styling */
+label {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #dcdde1;
+    font-size: 1em;
+    background-color: #f7f9fc;
+    transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #4070f4;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(64, 112, 244, 0.2);
+}
+
+/* Button style */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4070f4;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover effect */
+button[type="submit"]:hover {
+    background-color: #335bcb;
+    transform: translateY(-2px);
+}
+
+/* Sign up text style */
+.signup-text {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #666;
+    text-align: center;
+}
+
+.signup-text a {
+    color: #4070f4;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.6em;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        font-size: 1em;
+    }
+
+    button[type="submit"] {
+        font-size: 1em;
+    }
+}

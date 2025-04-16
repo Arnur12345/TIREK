@@ -1,0 +1,74 @@
+.events-container {
+    padding: 40px;
+    background-color: #f4f6fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    background-color: #e6e6e6;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.tabs button.active, .tabs button:hover {
+    background-color: #001d3d;
+    color: white;
+    font-weight: bold;
+}
+
+.table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.events-table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.events-table th, .events-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.events-table th {
+    background-color: #001d3d;
+    color: white;
+    font-weight: bold;
+}
+
+.events-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.events-table td {
+    font-size: 1em;
+    color: #555;
+}
