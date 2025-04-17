@@ -92,8 +92,8 @@ python telegram.py  # Launch Telegram alert service
 
 ### 📸 Screenshots
 <p align="center">
-  <img src="https://via.placeholder.com/250x150?text=Admin+Dashboard" alt="Admin Dashboard" />
-  <img src="https://via.placeholder.com/250x150?text=Alert+System" alt="Alert System" /> 
+  <img src="[https://via.placeholder.com/250x150?text=Admin+Dashboard](https://res.cloudinary.com/dq2pbzrtu/image/upload/v1744908313/ad82a6bc-9932-46db-a588-05ac52920af5.png)" alt="Admin Dashboard" />
+  <img src="[https://via.placeholder.com/250x150?text=Alert+System](https://res.cloudinary.com/dq2pbzrtu/image/upload/v1744908412/c5453c8c-19c4-4d58-8227-6a098c858210.png)" alt="Alert System" /> 
 </p>
 
 
