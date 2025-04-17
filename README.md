@@ -89,3 +89,23 @@ python main.py
 # In a separate terminal
 python telegram.py  # Launch Telegram alert service
 ```
+
+### 📸 Screenshots
+<p align="center">
+  <img src="https://via.placeholder.com/250x150?text=Admin+Dashboard" alt="Admin Dashboard" />
+  <img src="https://via.placeholder.com/250x150?text=Alert+System" alt="Alert System" /> 
+</p>
+
+
+### How it works?
+```bash
+Detection: CV models analyze live video for signs of danger.
+
+Classification: Incidents are categorized by type and severity.
+
+Notification: Immediate alerts sent via Telegram.
+
+Logging: All incidents stored in the PostgreSQL database.
+
+Response: Staff can mark events resolved, add notes, and review logs.
+```
